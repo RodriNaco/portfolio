@@ -1,0 +1,296 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #36454F;
+    color: #FFFFFF;
+}
+
+header {
+    background-color: #50C878;
+    width: 98.2%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulos {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+    gap: 10px;
+}
+
+.titulos span {
+    margin: 5px 0;
+}
+
+.titulos span a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.titulos a:hover {
+    color: #8A9A5B;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 60%;
+    margin-right: 20px;
+}
+
+.presentacion h1 {
+    font-size: 3em;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.presentacion p {
+    font-size: 1.5em;
+    margin: 0;
+    line-height: 1.6;
+    width: 100%;
+}
+
+.fotoRodri {
+    width: 319px;
+    height: 365px;
+    flex-shrink: 0;
+}
+
+footer {
+    background-color: #50C878;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.footerRedes {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.redesSociales {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.redesSociales p {
+    color: #FFFFFF;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+}
+
+.links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.links a:hover {
+    color: #8A9A5B;
+}
+
+.fotoUade {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.fotoUade img {
+    width: 150px;
+    height: auto;
+}
+.derechosFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #50C878;
+    color: #FFFFFF;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.footerRedes {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .titulos {
+        font-size: 1.2em;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulos span {
+        margin: 5px 0;
+    }
+
+    main {
+        flex-direction: column;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .presentacion {
+        max-width: 100%;
+        margin-right: 0;
+    }
+
+    .presentacion h1 {
+        font-size: 2em;
+    }
+
+    .presentacion p {
+        font-size: 1.2em;
+    }
+
+    .fotoRodri {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .footerRedes {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .redesSociales p, .links a {
+        text-align: center;
+    }
+
+    .fotoUade {
+        justify-content: center;
+    }
+
+    .fotoUade img {
+        width: 100px;
+    }
+}
+
+.cvRodri {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.cvRodri img {
+    width: 90%;
+    max-width: none;
+    height: auto;
+}
+
+.informacion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 60%;
+    margin-right: 20px;
+}
+
+.informacion p {
+    font-size: 1.5em;
+    margin: 0;
+    line-height: 1.6;
+    width: 100%;
+}
+
+.fotoRodri2 {
+    width: 250px;
+    height: 360px;
+    flex-shrink: 0;
+}
+
+.repositorio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 60%;
+    margin-right: 20px;
+}
+
+.repositorio h1 {
+    font-size: 3em;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.repositorio p {
+    font-size: 1.5em;
+    margin: 0;
+    line-height: 1.6;
+    width: 100%;
+}
+
+.repositorio_link {
+    color: #ffffff;
+}
+
+.repositorio_link:hover {
+    color: #8A9A5B;
+}
+
+.formulario-cont h1 {
+    font-size: 3em;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.formulario-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 30%;
+}
+
+.infoPersonal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 50%;
+}
