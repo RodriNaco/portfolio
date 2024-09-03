@@ -212,19 +212,6 @@ footer {
     }
 }
 
-.cvRodri {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-.cvRodri img {
-    width: 90%;
-    max-width: none;
-    height: auto;
-}
-
 .informacion {
     display: flex;
     flex-direction: column;
