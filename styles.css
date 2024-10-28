@@ -1,0 +1,408 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #102019;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#modeToggle{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #333333;
+    color: #FFFFFF
+}
+
+.light-mode #modeToggle{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    background-color: #A3B18A;
+    width: 98,9%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulos {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+    gap: 10px;
+}
+
+.titulos span {
+    margin: 5px 0;
+}
+
+.titulos span a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.titulos a:hover {
+    color: #8A9A5B;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 60%;
+    margin-right: 20px;
+}
+
+.presentacion h1 {
+    font-size: 3em;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.presentacion p {
+    font-size: 1.5em;
+    margin: 0;
+    line-height: 1.6;
+    width: 100%;
+}
+
+.fotoRodri {
+    width: 319px;
+    height: 365px;
+    flex-shrink: 0;
+}
+
+footer {
+    background-color: #A3B18A;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.footerRedes {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.redesSociales {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.redesSociales p {
+    color: #FFFFFF;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+}
+
+.links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.links a:hover {
+    color: #8A9A5B;
+}
+
+.fotoUade {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.fotoUade img {
+    width: 150px;
+    height: auto;
+}
+.derechosFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #A3B18A;
+    color: #FFFFFF;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.footerRedes {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .titulos {
+        font-size: 1.2em;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulos span {
+        margin: 5px 0;
+    }
+
+    main {
+        flex-direction: column;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .presentacion {
+        max-width: 100%;
+        margin-right: 0;
+    }
+
+    .presentacion h1 {
+        font-size: 2em;
+    }
+
+    .presentacion p {
+        font-size: 1.2em;
+    }
+
+    .fotoRodri {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .footerRedes {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .redesSociales p, .links a {
+        text-align: center;
+    }
+
+    .fotoUade {
+        justify-content: center;
+    }
+
+    .fotoUade img {
+        width: 100px;
+    }
+    .caja_contacto h2 {
+        font-size: 2rem;
+    }
+
+    .caja_contacto p {
+        font-size: 1.125rem;
+    }
+
+    .formulario h2 {
+        font-size: 1.75rem;
+    }
+
+    .campo label {
+        font-size: 1rem;
+    }
+
+    .campo input,
+    .campo textarea {
+        font-size: 0.875rem;
+    }
+}
+
+.informacion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 60%;
+    margin-right: 20px;
+}
+
+.informacion p {
+    font-size: 1.5em;
+    margin: 0;
+    line-height: 1.6;
+    width: 100%;
+}
+
+.fotoRodri2 {
+    width: 250px;
+    height: 360px;
+    flex-shrink: 0;
+}
+
+.repositorio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 60%;
+    margin-right: 20px;
+}
+
+.repositorio h1 {
+    font-size: 3em;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.repositorio p {
+    font-size: 1.5em;
+    margin: 0;
+    line-height: 1.6;
+    width: 100%;
+}
+
+.repositorio_link {
+    color: #ffffff;
+}
+
+.repositorio_link:hover {
+    color: #8A9A5B;
+}
+
+.formulario {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #A3B18A;
+}
+
+.formulario h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.caja-consultas {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.campo label {
+    flex: 1;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.campo input,
+.campo textarea {
+    flex: 2;
+    padding: 10px;
+    border: 1px solid #ccc; 
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.campo input:valid,
+.campo textarea:valid {
+    border: 2px solid green;
+}
+
+.campo input:invalid:focus,
+.campo textarea:invalid:focus,
+.campo input:invalid:blur,
+.campo textarea:invalid:blur {
+    border: 2px solid red;
+}
+
+.caja-consultas button {
+    padding: 10px;
+    background-color: #52734D;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.caja-consultas button:hover {
+    background-color: #3E5941;
+}
+
+@media (max-width: 480px) {
+    .caja_contacto {
+        padding: 1.5%;
+    }
+
+    .formulario {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .caja_contacto h2 {
+        font-size: 2rem;
+    }
+
+    .caja_contacto p {
+        font-size: 1.125rem;
+    }
+
+    .formulario h2 {
+        font-size: 1.75rem;
+    }
+
+    .campo label {
+        font-size: 1rem;
+    }
+
+    .campo input,
+    .campo textarea {
+        font-size: 0.875rem;
+    }
+}
+
+.infoPersonal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 50%;
+}
