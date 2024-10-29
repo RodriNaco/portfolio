@@ -13,10 +13,6 @@ body {
     margin: 0;
 }
 
-.light-mode {
-    background-color: #ffffff;
-    color: #000000;
-}
 
 #modeToggle{
     padding: 10px 20px;
@@ -28,10 +24,59 @@ body {
     color: #FFFFFF
 }
 
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
 .light-mode #modeToggle{
     background-color: #ffffff;
     color: #000000;
 }
+
+.light-mode header{
+    background-color: #A972AB;
+}
+
+.light-mode footer{
+    background-color: #A972AB;
+}
+
+.light-mode .derechosFooter{
+    background-color: #A972AB;
+}
+
+.light-mode .caja-consultas{
+    background-color: #A972AB;
+
+}
+.light-mode .formulario{
+    background-color: #A972AB;
+}
+.light-mode .caja-consultas button{
+    background-color: #a550a8;
+}
+
+.light-mode .caja-consultas button:hover{
+    background-color: #824085;
+}
+
+.light-mode .repositorio_link {
+    color: #000000;
+}
+
+.light-mode .titulos a:hover {
+    color: #a550a8;
+}
+
+.light-mode .repositorio_link:hover {
+    color: #a550a8;
+}
+
+.light-mode .links a:hover {
+    color: #a550a8;
+}
+
 
 header {
     background-color: #A3B18A;
